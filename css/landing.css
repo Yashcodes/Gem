@@ -1,0 +1,42 @@
+.all-form{
+    width: 60vw;
+    margin:10vh auto;
+    /* background-color: antiquewhite; */
+    
+}
+.all-form .all-form-all{
+    width: 60vw;
+    margin: auto;
+   
+}
+.all-form form{
+    margin-top: 10vh;
+}
+.all-form-right{
+    width: 50%;
+    margin-left: 10px;
+}
+.all-form-left{
+    width: 50%;
+}
+
+input,select{
+    width: 60%;
+    margin:30px auto;
+    display: block;
+    /* border-bottom: none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+select{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.all-form-submit button{
+    width: 30%;
+    margin: auto;
+    display: block;
+    margin-top: 5vh;
+
+}

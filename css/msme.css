@@ -1,0 +1,446 @@
+
+header{
+    background: url(../images/blog-headr.jpg) no-repeat;
+}
+
+.msme{
+    width: 100vw;
+    /* background-color: black; */
+    display: flex;
+    margin-bottom: -13vh;
+}
+
+.msme-form-msme-form{
+    /* border: 1px solid red; */
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.msme-form-msme-form-sub{
+    text-align: center;
+}
+/* .msme-form-msme-form-sub:after{
+    content: "";
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    animation: changetext 20s infinite;
+}
+
+@keyframes changetext{
+    0%{
+        content: '"Help me"';
+    }
+    50%{
+        content: '"MSME Registration"';
+    }
+    100%{
+        content: '"Please fill the form"';
+    }
+} */
+
+.msme-form h1{
+    text-align: center;
+    font-size: 2.1rem;
+    margin-left: -4vw;
+}
+.msme-form{
+    max-width: 55vw;
+    /* background-color: gainsboro; */
+    margin-left: 10vw;
+    /* font-family: FontAwesome; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    /* flex-direction: column; */
+}
+.form-center .col-msme-btn{
+    background-color: #AFD357;
+}
+.form-center button{
+    padding: 8px 40px;
+    border-radius:24px;
+    /* margin: 10px; */
+    /* background-color: white; */
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: bold; */
+    cursor: pointer;
+    font-size: 1.3rem;
+    outline: none;
+    border: 1px solid black;
+}
+.form-center .btn{
+    margin-right: 10px;
+    margin-top: -5px;
+    border: 1px solid black;
+}
+/* .form-center .btn:hover{
+    background-color: rgba(8, 236, 57, 0.966);
+    transition: 0.3s;
+    border: 1px solid rgba(8, 236, 57, 0.966);
+}
+.form-center button:hover{
+    background-color: #1DA1F2;
+    transition: 0.3s;
+    border: 1px solid #1DA1F2;
+} */
+
+.form-center label{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-weight: bold; */
+    font-size:16px;
+    line-height: 8px;
+    /* font-family: 'Raleway', sans-serif; */
+}
+.form-left{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 50%;
+}
+.form-right{
+    width: 50%;
+    /* display: flex; */
+    margin-left: 3vw;
+}
+.form-right .inp{
+    width: 90%;
+    border-radius: 5px;
+}
+.form-right select,.form-left select{
+    width: 90%;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #4c4c4c;
+}
+.form-right select,.form-left .sel{
+    width: 40%;
+}
+.form-center .input{
+width: 100%;
+border-radius: 5px;
+padding-left: 5px;
+/* line-height: 10px; */
+
+border: 1px solid #d4d1d1;
+}
+.form-right .date{
+    width: 90%;
+    border-radius: 5px;
+    padding: 0px;
+}
+.password{
+    width: 90%;
+    border-radius: 5px;
+    outline: none;
+    /* padding: 0px; */
+}
+.captcha{
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+}
+.re{
+    width: 22.3%;
+}
+
+.select{
+    width: 120%;
+}
+ 
+.form-center option{
+    width: 100%;
+}
+
+.form-right a{
+    font-size: 16px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.form-right a:hover{
+    color: black;
+    text-decoration: none;
+}
+.cc{
+    display: flex;
+    width: 100%;
+}
+#captchaValue{
+    border: 1px solid black;
+    width: 15%;
+    border-radius: 6px 0px 0px 6px;
+    text-align: center;
+     /* font-family: 'Raleway', sans-serif; */
+     font-family: 'Roboto', sans-serif;
+     font-weight: 600;
+    background-color: #02033a;
+    color: white;
+}
+.form-center .inputCaptcha{
+    width: 27%;
+    border-radius: 0px 6px 6px 0px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.form-center .cc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+/* #captchaInput{
+    width: 60%;
+} */
+/* ------------------------------------------------------ */
+
+
+.msme-ad{
+    background-color: #4c4c4c;
+    width: 35vw;
+    margin-left: 4vw;
+    border-radius: 15px 15px 0px 0px;
+}
+.msme-ad-up{
+    height: 13vh;
+    background-color: #222d38;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.msme-ad-up h1{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.msme-ad-down{
+    height: 100vh;
+    color: black;
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+.msme-ad-down-div{
+    /* line-height: 15px; */
+    padding-left: 18px;
+}
+
+/* --------------- */
+
+
+.amh-form-amh-1{
+    width: 100vw;
+}
+.amh-form-amh-sub-1{
+    margin-left: 10vw;
+    max-width: 60vw;
+    background-color: #4c4c4c;
+}
+.amh-form-amh-sub-1-amh{
+    display: flex;
+}
+.amh-form-amh-1-left{
+    width: 50%;
+    background-color: aqua;
+}
+.amh-form-amh-1-right{
+    width: 50%;
+    background-color: blue;
+}
+.amh-form-amh-sub-1 input{
+    width: 100%;
+}
+
+/* --------------------------------------- */
+
+
+
+/*------------------- msme-portal-start----------------- */
+
+.msme-msme-portal{
+    
+    /* background-color: #24c1dd; */
+    height: 65vh;
+    max-width: 80vw;
+    margin: auto;
+}
+.msmem-msme-up{
+    background-color: #222d38;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msmem-msme-up h1{
+    text-align: center;
+    color: white;
+    
+}
+.msmem-msme-down{
+    display: flex;
+    background-color:rgba(232, 232, 243, 0.938);
+    margin: 0px;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+.msme-box{
+    background-color: #00B8B3;
+    margin: 23px;
+    height: 18vh;
+    width: 43vw;
+    border-radius: 10px;
+}
+.fa-phone,.fa-credit-card,.fa-check,.fa-book{
+    text-align: center;
+    display: block;
+    margin:auto;
+    margin-top: 25px;
+    width: 100%;
+}
+.msme-h3{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: Raleway, sans-serif;
+    padding: 10px;
+}
+/*------------------- msme-portal-end----------------- */
+
+/* -----------msme-rgistration-start---------- */
+
+.msme-document-reg-sub{
+    width: 80vw;
+    /* background-color: antiquewhite; */
+    background-color: rgba(232, 232, 243, 0.938);
+    margin: auto;
+    height: 55vh;
+}
+.msme-document-reg-up{
+    background-color: #222d38;
+}
+.msme-document-reg-up h1{
+    text-align: center;
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+
+.msme-document-reg-down{
+    display: flex;
+    margin: 6vh;
+    /* margin-bottom: 3vh; */
+}
+.msme-document-reg-down-left{
+    width: 50vw;
+    background-color: #fff;
+    
+}
+.msme-document-reg-down-right{
+    width: 50vw;
+    margin-left: 35px;
+    background-color: #fff;
+}
+.msme-document-reg-down-right h4,.msme-document-reg-down-left h4{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+.msme-document-reg-down-right p,.msme-document-reg-down-left p{
+    font-family: Roboto, sans-serif;
+    padding-left: 18px;
+}
+/* -----------msme-rgistration-end---------- */
+
+
+
+/*--------------------- msme-information-style----------------------- */
+.msme-information{
+    background-color: rgba(232, 232, 243, 0.938);
+}
+.msme-information-sub{
+    width: 85vw;
+    /* margin: auto; */
+    margin-left: 9vw;
+    /* background-color: #4c4c4c; */
+    font-family: 'Roboto', sans-serif;
+}
+.msme-information h1{
+    text-align: center;
+    font-size: 2.3rem;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Raleway, sans-serif;
+    margin-bottom: 7vh;
+    color: #02033a;
+    /* text-decoration: underline; */
+}
+.msme-info-up{
+    width: 80vw;
+    margin: auto;
+    background-color:#fff;
+}
+.msme-info-mid{
+    width: 80vw;
+    margin: auto;
+    background-color: #fff;
+}
+.msme-info-down{
+    width: 80vw;
+    margin: auto;
+    background-color: #fff;
+}
+.msme-info-up h3,.msme-info-mid h3,.msme-info-down h3{
+    padding-top: 2vh;
+    margin-left: 1.1vw;
+    margin-bottom: 4.5vh;
+    font-family: Raleway, sans-serif;
+}
+.msme-info-up h6,.msme-info-mid h6, .msme-info-down h6{
+    margin-left: 1.8vw;
+    margin-bottom: 3.3vh;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+}
+.msme-info-up p, .msme-info-mid p,.msme-info-down p{
+    margin-left: 1.8vw;
+    font-family: Roboto, sans-serif;
+}
+.msme-info-up span, .msme-info-mid span, .msme-info-down span{
+    font-size: 2.3rem;
+    color: #24c1dd;
+    font-family: Roboto, sans-serif;
+}
+.msme-info-up .msme-p-fot, .msme-info-mid .msme-p-fot, .msme-info-down .msme-p-fot{
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    padding-bottom: 3vh;
+    font-weight: 700;
+}
+
+.msme-information h1:before{
+    content: "";
+    position: absolute;
+    top: 10%;
+    width: 28.8%;
+    left: 36.9%;
+    height: 6px;
+    margin: auto;
+    border-bottom: 3px solid rgb(3, 3, 32);
+
+}
+
+
+.color-fot{
+    color: white;
+}
+
+
